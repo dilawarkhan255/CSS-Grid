@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="Assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main">
+        <h1 class="text-center">Css Grid System/ Css Grid Layout</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">Col-xs-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all small screens-->
+                <div class="col-xs-6">Col-xs-6 From 10:00 Am to 12:00 Pm.</div><!-- 50% width for all small screens-->
+                <div class="col-xs-3">Col-xs-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all small screens-->
+            </div>
+        </div>
+        <br/><br/>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">Col-sm-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all 767px screens otherwise 100%-->
+                <div class="col-sm-6">Col-sm-6 From 10:00 Am to 12:00 Pm.</div><!-- 50% width for all 767px screens otherwise 100%-->
+                <div class="col-sm-3">Col-sm-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all 767px screens otherwise 100%-->
+            </div>
+        </div>
+
+        <br/><br/>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">Col-md-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all 991px screens otherwise 100%-->
+                <div class="col-md-6">Col-md-6 From 10:00 Am to 12:00 Pm.</div><!-- 50% width for all 991px screens otherwise 100%-->
+                <div class="col-md-3">Col-md-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all 991px screens otherwise 100%-->
+            </div>
+        </div>
+
+        <br/><br/>
+        <div class="container">
+            <div class="row green">
+                <div class=" col-sm-3">Col-sm-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all 1200px screens otherwise 100%-->
+                <div class=" col-sm-3">Col-sm-3 From 10:00 Am to 12:00 Pm.</div><!-- 50% width for all 1200px screens otherwise 100%-->
+                <div class="col-sm-3">Col-sm-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all 1200px screens otherwise 100%-->
+                <div class=" col-sm-3">Col-sm-3 <i class="glyphicon glyphicon-time"></i></div>
+            </div>
+        </div>
+
+        <br/><br/>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">Col-lg-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all 1200px screens otherwise 100%-->
+                <div class="col-lg-6">Col-lg-6 From 10:00 Am to 12:00 Pm.</div><!-- 50% width for all 1200px screens otherwise 100%-->
+                <div class="col-lg-3">Col-lg-3 <i class="glyphicon glyphicon-time"></i></div><!-- 25% width for all 1200px screens otherwise 100%-->
+            </div>
+        </div>
+        <div class="container hidden">
+                <div class="row text-center">
+                    <div class="col-lg-2">LG-2</div>
+                    <div class="col-lg-2">Lg-2</div>
+                    <div class="col-lg-2">Lg-2</div>
+                    <div class="col-lg-2">Lg-2</div>
+                    <div class="col-lg-2">Lg-2</div>
+                    <div class="col-lg-2">Lg-2</div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-lg-6">Lg-6</div>
+                    <div class="col-lg-6">Lg-6</div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-lg-3">LG-3</div>
+                    <div class="col-lg-3">LG-3</div>
+                    <div class="col-lg-3">LG-3</div>
+                    <div class="col-lg-3">LG-3</div>
+                </div>
+                <br/><br/>
+
+                <div class="row text-center blue">
+                    <div class="col-md-2">MD-2</div>
+                    <div class="col-md-2">Md-2</div>
+                    <div class="col-md-2">MD-2</div>
+                    <div class="col-md-2">MD-2</div>
+                    <div class="col-md-2">MD-2</div>
+                    <div class="col-md-2">MD-2</div>
+                </div>
+
+                <div class="row text-center blue">
+                    <div class="col-md-6">Md-6</div>
+                    <div class="col-md-6">Md-6</div>
+                </div>
+
+                <div class="row text-center blue">
+                    <div class="col-md-3">Md-3</div>
+                    <div class="col-md-3">Md-3</div>
+                    <div class="col-md-3">Md-3</div>
+                    <div class="col-md-3">Md-3</div>
+                </div>
+                <br/><br/>
+
+                <div class="row text-center green">
+                    <div class="col-sm-2">Sm-2</div>
+                    <div class="col-sm-2">Sm-2</div>
+                    <div class="col-sm-2">sm-2</div>
+                    <div class="col-sm-2">sm-2</div>
+                    <div class="col-sm-2">sm-2</div>
+                    <div class="col-sm-2">sm-2</div>
+                </div>
+
+                <div class="row text-center green">
+                    <div class="col-sm-6">sm-6</div>
+                    <div class="col-sm-6">sm-6</div>
+                </div>
+
+                <div class="row text-center green">
+                    <div class="col-sm-3">sm-3</div>
+                    <div class="col-sm-3">sm-3</div>
+                    <div class="col-sm-3">sm-3</div>
+                    <div class="col-sm-3">sm-3</div>
+                </div>
+        </div>
+    </div>
+
+
+
+    <script src="Assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
